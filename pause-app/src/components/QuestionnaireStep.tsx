@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { ArrowLeft, Check } from "lucide-react";
 
@@ -45,6 +45,14 @@ export default function QuestionnaireStep({
   const [multiAnswers, setMultiAnswers] = useState<string[]>([]);
   const [sliderValue, setSliderValue] = useState(50);
   const [textValue, setTextValue] = useState("");
+
+  // Reset answers when question changes
+  useEffect(() => {
+    setSingleAnswer("");
+    setMultiAnswers([]);
+    setSliderValue(50);
+    setTextValue("");
+  }, [question.id]);
 
   const progress = (current / total) * 100;
 
