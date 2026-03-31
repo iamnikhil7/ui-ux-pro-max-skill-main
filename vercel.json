@@ -1,6 +1,3 @@
 {
-  "buildCommand": "cd pause && npm install && npm run build",
-  "outputDirectory": "pause/.next",
-  "installCommand": "cd pause && npm install",
   "framework": "nextjs"
 }
