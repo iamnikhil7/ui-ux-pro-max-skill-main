@@ -21,7 +21,7 @@ export default function CTASection() {
             </p>
             <div className="mt-8">
               <a
-                href="#"
+                href="/create"
                 className="inline-flex h-12 items-center justify-center gap-2 rounded-full bg-white px-8 text-base font-semibold text-primary shadow-lg hover:bg-white/90 transition-colors duration-200 cursor-pointer focus:outline-2 focus:outline-offset-2 focus:outline-white"
               >
                 Get Started
