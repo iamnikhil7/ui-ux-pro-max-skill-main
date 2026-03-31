@@ -33,7 +33,7 @@ export default function Navbar() {
               Vibes
             </a>
             <a
-              href="#cta"
+              href="/create"
               className="inline-flex h-10 items-center rounded-full bg-cta px-5 text-sm font-semibold text-white shadow-sm hover:bg-cta-hover transition-colors duration-200 cursor-pointer focus:outline-2 focus:outline-offset-2 focus:outline-cta"
             >
               Create Your Vibe
@@ -76,7 +76,7 @@ export default function Navbar() {
               Vibes
             </a>
             <a
-              href="#cta"
+              href="/create"
               className="inline-flex h-11 items-center justify-center rounded-full bg-cta px-5 text-base font-semibold text-white shadow-sm hover:bg-cta-hover transition-colors duration-200 cursor-pointer focus:outline-2 focus:outline-offset-2 focus:outline-cta"
               onClick={() => setMobileOpen(false)}
             >

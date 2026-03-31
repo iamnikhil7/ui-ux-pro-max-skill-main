@@ -41,7 +41,7 @@ export default function Hero() {
 
             <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
               <a
-                href="#cta"
+                href="/create"
                 className="inline-flex h-12 items-center justify-center gap-2 rounded-full bg-cta px-6 text-base font-semibold text-white shadow-lg shadow-cta/25 hover:bg-cta-hover hover:shadow-cta/40 transition-all duration-200 cursor-pointer focus:outline-2 focus:outline-offset-2 focus:outline-cta"
               >
                 Create Your Vibe
